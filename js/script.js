@@ -1,7 +1,6 @@
 'use strict';
 
-class President {
-  constructor(name, party, years, state) {
+function President(name, party, years, state) {
     this.name = name;
     this.politicalParty = party;
     this.yearsInOffice = years;
@@ -22,4 +21,3 @@ class President {
       return "Hi, my name is " + this.name + ". I am from " + this.homeState + ". I represent the " + this.politicalParty + "s, and was in office " + this.yearsInOffice + "."
     }
   }
-}
